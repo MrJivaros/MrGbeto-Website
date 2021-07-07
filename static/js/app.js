@@ -8,9 +8,17 @@ try {
 } catch (err) {
 
 }
+const getWeb = ()=>{
+    if(window.innerWidth>600){
+        window.location.replace('/web.html')
+        return
+    }
+    
+    console.log(window.location.href+'web.html')
+    return
+}
 
 if (home == 'Home') {
     icons[0].innerHTML = '.'
 }
 
-console.log(btn)
