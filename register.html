@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign</title>
+    <link rel="stylesheet" href="./static/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./static/fonts/css/all.min.css">
+    <link rel="stylesheet" href="./static/css/style.css">
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="nav">
+            <ul>
+                <li>
+                    <a href="/">
+                        <i class="fas fa-home"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+                        <i class="far fa-bookmark"></i>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="sign.html">
+                        <i class="far fa-user"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="container sign-content ">
+            <div class="container sign-logo">
+                <i class="fas fa-user-circle text-success"></i>
+                <br>
+                <h1>INSCRIPTION</h1>
+                
+            </div>
+            <form action="#" class="form" method="POST">
+                <div class="d-flex flex justify-content-between ">
+                    <div class="form-group">
+                        <label for="login"> Nom :</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login"> Prénom :</label>
+                        <input type="text" class="form-control" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="login"> Email :</label>
+                    <input type="email" class="form-control" required>
+                </div>
+                <div class="d-flex flex justify-content-between">
+                    <div class="form-group">
+                        <label for="login"> Password :</label>
+                        <input type="password" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="login"> Confirme :</label>
+                        <input type="password" class="form-control" required>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <p>Vous avez deja un compte ? <a href="sign.html">connectez-vous</a> </p>
+                </div>
+                <div class="form-group mt-2 d-flex justify-content-between">
+                    <button type="reset" class="btn btn-outline-danger">Annuler</button>
+                    <button type="submit" class="btn btn-warning">Inscription</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="./static/js/bootstrap.min.js"></script>
+    <script src="./static/js/app.js"></script>
+
+</body>
+
+</html>
