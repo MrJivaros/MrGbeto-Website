@@ -1,2 +1,4 @@
 static/fonts
-venv
+venv/
+.vscode/
+*pyc

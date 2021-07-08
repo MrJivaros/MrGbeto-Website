@@ -20,4 +20,4 @@ def web():
 
 
 if __name__ == '__main__':
-    app.run(debug=False,port=8086)
+    app.run(debug=True,port=8086,host='0.0.0.0')
